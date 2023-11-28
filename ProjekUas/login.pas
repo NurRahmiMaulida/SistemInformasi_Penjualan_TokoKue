@@ -32,6 +32,8 @@ var
 
 implementation
 
+uses menu_utama;
+
 {$R *.dfm}
 
 procedure TForm1.btn1Click(Sender: TObject);
@@ -56,7 +58,7 @@ Application.MessageBox('Pastikan password yang anda masukkan benar','error',MB_O
 else
 begin
 hide;
-Form1.Show;
+Form2.Show;
 end;
 end;
 
