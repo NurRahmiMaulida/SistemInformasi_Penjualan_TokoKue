@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 174
-  Top = 39
+  Left = 272
+  Top = 211
   Width = 536
   Height = 540
   Caption = 'LOGIN'
@@ -102,10 +102,9 @@ object Form1: TForm1
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
     AutoEncodeStrings = False
-    Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'RahmiBakery'
+    Database = 'rahmibakery'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\DOKUMEN\SEMESTER 5\VISUAL 3\UAS VISUAL\ProjekUas\libmysql.dll'
