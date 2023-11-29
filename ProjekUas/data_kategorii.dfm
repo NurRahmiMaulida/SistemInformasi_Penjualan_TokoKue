@@ -1,9 +1,9 @@
-object Form3: TForm3
-  Left = 166
-  Top = 208
-  Width = 1045
+object Form5: TForm5
+  Left = 192
+  Top = 152
+  Width = 1044
   Height = 540
-  Caption = 'CUSTOMER'
+  Caption = 'DATA KATEGORI'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,9 +17,9 @@ object Form3: TForm3
   object lbl1: TLabel
     Left = 288
     Top = 40
-    Width = 190
+    Width = 181
     Height = 28
-    Caption = 'DATA CUSTOMER'
+    Caption = 'DATA KATEGORI'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -32,9 +32,9 @@ object Form3: TForm3
   object lbl4l: TLabel
     Left = 32
     Top = 101
-    Width = 118
+    Width = 110
     Height = 16
-    Caption = 'NAMA_CUSTOMER'
+    Caption = 'NAMA_KATEGORI'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -45,9 +45,9 @@ object Form3: TForm3
   object lbl4l1: TLabel
     Left = 32
     Top = 133
-    Width = 97
+    Width = 69
     Height = 16
-    Caption = 'JENIS KELAMIN'
+    Caption = 'DESKRIPSI'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -67,35 +67,9 @@ object Form3: TForm3
     Font.Style = []
     ParentFont = False
   end
-  object lbl3: TLabel
-    Left = 32
-    Top = 165
-    Width = 51
-    Height = 16
-    Caption = 'ALAMAT'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
-  object lbl4: TLabel
-    Left = 32
-    Top = 197
-    Width = 32
-    Height = 16
-    Caption = 'TELP'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
   object btn2: TButton
-    Left = 169
-    Top = 264
+    Left = 153
+    Top = 184
     Width = 75
     Height = 32
     Caption = 'SIMPAN'
@@ -109,8 +83,8 @@ object Form3: TForm3
     OnClick = btn2Click
   end
   object btn3: TButton
-    Left = 257
-    Top = 264
+    Left = 241
+    Top = 184
     Width = 75
     Height = 32
     Caption = 'EDIT'
@@ -124,8 +98,8 @@ object Form3: TForm3
     OnClick = btn3Click
   end
   object btn4: TButton
-    Left = 345
-    Top = 264
+    Left = 329
+    Top = 184
     Width = 75
     Height = 32
     Caption = 'HAPUS'
@@ -139,8 +113,8 @@ object Form3: TForm3
     OnClick = btn4Click
   end
   object btn5: TButton
-    Left = 441
-    Top = 264
+    Left = 425
+    Top = 184
     Width = 75
     Height = 32
     Caption = 'BATAL'
@@ -154,8 +128,8 @@ object Form3: TForm3
     OnClick = btn5Click
   end
   object btn6: TButton
-    Left = 529
-    Top = 264
+    Left = 513
+    Top = 184
     Width = 80
     Height = 32
     Caption = 'LAPORAN'
@@ -168,27 +142,9 @@ object Form3: TForm3
     TabOrder = 4
     OnClick = btn6Click
   end
-  object cbb1: TComboBox
-    Left = 184
-    Top = 128
-    Width = 385
-    Height = 21
-    ItemHeight = 13
-    TabOrder = 5
-    Items.Strings = (
-      'LAKI-LAKI'
-      'PEREMPUAN')
-  end
-  object edt1: TEdit
-    Left = 184
-    Top = 96
-    Width = 377
-    Height = 21
-    TabOrder = 6
-  end
   object btn1: TButton
-    Left = 80
-    Top = 264
+    Left = 64
+    Top = 184
     Width = 75
     Height = 33
     Caption = 'BARU'
@@ -198,7 +154,7 @@ object Form3: TForm3
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
-    TabOrder = 7
+    TabOrder = 5
     OnClick = btn1Click
   end
   object btn7: TBitBtn
@@ -213,16 +169,16 @@ object Form3: TForm3
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
-    TabOrder = 8
+    TabOrder = 6
     OnClick = btn7Click
   end
   object dbgrd1: TDBGrid
-    Left = 56
-    Top = 312
+    Left = 40
+    Top = 232
     Width = 569
     Height = 177
     DataSource = ds1
-    TabOrder = 9
+    TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -230,19 +186,27 @@ object Form3: TForm3
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
-  object edt2: TEdit
+  object edt1: TEdit
     Left = 184
-    Top = 160
+    Top = 128
     Width = 377
     Height = 21
-    TabOrder = 10
+    TabOrder = 8
   end
-  object edt3: TEdit
+  object cbb1: TComboBox
     Left = 184
-    Top = 192
-    Width = 377
+    Top = 96
+    Width = 385
     Height = 21
-    TabOrder = 11
+    ItemHeight = 13
+    TabOrder = 9
+    Items.Strings = (
+      'Kue Kering'
+      'Bolu'
+      'Brownis'
+      'Pastry'
+      'Bingka'
+      'Roti Rasa')
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -260,8 +224,9 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from customer')
+      'select * from kategori')
     Params = <>
     Left = 616
     Top = 64
@@ -443,7 +408,7 @@ object Form3: TForm3
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSet = zqry1
-    Left = 664
-    Top = 88
+    Left = 672
+    Top = 112
   end
 end

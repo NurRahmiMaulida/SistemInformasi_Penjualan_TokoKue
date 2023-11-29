@@ -20,6 +20,8 @@ type
     btn8: TButton;
     btn9: TButton;
     procedure btn3Click(Sender: TObject);
+    procedure btn5Click(Sender: TObject);
+    procedure btn4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,7 +33,7 @@ var
 
 implementation
 
-uses data_customer;
+uses data_customer, data_supplier, Unit5;
 
 {$R *.dfm}
 
@@ -39,6 +41,18 @@ procedure TForm2.btn3Click(Sender: TObject);
 begin
  hide;
 Form3.Show;
+end;
+
+procedure TForm2.btn5Click(Sender: TObject);
+begin
+hide;
+form4.show;
+end;
+
+procedure TForm2.btn4Click(Sender: TObject);
+begin
+hide;
+form5.show;
 end;
 
 end.

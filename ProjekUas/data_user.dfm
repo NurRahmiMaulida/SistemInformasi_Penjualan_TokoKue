@@ -1,9 +1,9 @@
-object Form3: TForm3
-  Left = 166
-  Top = 208
-  Width = 1045
+object Form6: TForm6
+  Left = 192
+  Top = 152
+  Width = 1044
   Height = 540
-  Caption = 'CUSTOMER'
+  Caption = 'DATA USER'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,10 +16,10 @@ object Form3: TForm3
   TextHeight = 13
   object lbl1: TLabel
     Left = 288
-    Top = 40
-    Width = 190
+    Top = 24
+    Width = 122
     Height = 28
-    Caption = 'DATA CUSTOMER'
+    Caption = 'DATA USER'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -30,11 +30,11 @@ object Form3: TForm3
     ParentFont = False
   end
   object lbl4l: TLabel
-    Left = 32
-    Top = 101
-    Width = 118
+    Left = 40
+    Top = 77
+    Width = 21
     Height = 16
-    Caption = 'NAMA_CUSTOMER'
+    Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -43,11 +43,11 @@ object Form3: TForm3
     ParentFont = False
   end
   object lbl4l1: TLabel
-    Left = 32
-    Top = 133
-    Width = 97
+    Left = 40
+    Top = 117
+    Width = 103
     Height = 16
-    Caption = 'JENIS KELAMIN'
+    Caption = 'NAMA LENGKAP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -57,7 +57,7 @@ object Form3: TForm3
   end
   object lbl2: TLabel
     Left = 32
-    Top = 69
+    Top = 77
     Width = 4
     Height = 16
     Font.Charset = ANSI_CHARSET
@@ -68,11 +68,11 @@ object Form3: TForm3
     ParentFont = False
   end
   object lbl3: TLabel
-    Left = 32
-    Top = 165
-    Width = 51
+    Left = 40
+    Top = 157
+    Width = 74
     Height = 16
-    Caption = 'ALAMAT'
+    Caption = 'USERNAME'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -81,8 +81,34 @@ object Form3: TForm3
     ParentFont = False
   end
   object lbl4: TLabel
-    Left = 32
-    Top = 197
+    Left = 40
+    Top = 312
+    Width = 39
+    Height = 13
+    Caption = 'EMAIL'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl5: TLabel
+    Left = 40
+    Top = 229
+    Width = 15
+    Height = 16
+    Caption = 'JK'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl6: TLabel
+    Left = 40
+    Top = 269
     Width = 32
     Height = 16
     Caption = 'TELP'
@@ -93,9 +119,35 @@ object Form3: TForm3
     Font.Style = []
     ParentFont = False
   end
+  object lbl7: TLabel
+    Left = 40
+    Top = 349
+    Width = 51
+    Height = 16
+    Caption = 'ALAMAT'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl8: TLabel
+    Left = 40
+    Top = 197
+    Width = 76
+    Height = 16
+    Caption = 'PASSWORD'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+  end
   object btn2: TButton
     Left = 169
-    Top = 264
+    Top = 408
     Width = 75
     Height = 32
     Caption = 'SIMPAN'
@@ -110,7 +162,7 @@ object Form3: TForm3
   end
   object btn3: TButton
     Left = 257
-    Top = 264
+    Top = 408
     Width = 75
     Height = 32
     Caption = 'EDIT'
@@ -125,7 +177,7 @@ object Form3: TForm3
   end
   object btn4: TButton
     Left = 345
-    Top = 264
+    Top = 408
     Width = 75
     Height = 32
     Caption = 'HAPUS'
@@ -140,7 +192,7 @@ object Form3: TForm3
   end
   object btn5: TButton
     Left = 441
-    Top = 264
+    Top = 408
     Width = 75
     Height = 32
     Caption = 'BATAL'
@@ -155,7 +207,7 @@ object Form3: TForm3
   end
   object btn6: TButton
     Left = 529
-    Top = 264
+    Top = 408
     Width = 80
     Height = 32
     Caption = 'LAPORAN'
@@ -166,11 +218,10 @@ object Form3: TForm3
     Font.Style = []
     ParentFont = False
     TabOrder = 4
-    OnClick = btn6Click
   end
   object cbb1: TComboBox
     Left = 184
-    Top = 128
+    Top = 232
     Width = 385
     Height = 21
     ItemHeight = 13
@@ -181,14 +232,14 @@ object Form3: TForm3
   end
   object edt1: TEdit
     Left = 184
-    Top = 96
+    Top = 72
     Width = 377
     Height = 21
     TabOrder = 6
   end
   object btn1: TButton
     Left = 80
-    Top = 264
+    Top = 408
     Width = 75
     Height = 33
     Caption = 'BARU'
@@ -214,11 +265,10 @@ object Form3: TForm3
     Font.Style = []
     ParentFont = False
     TabOrder = 8
-    OnClick = btn7Click
   end
   object dbgrd1: TDBGrid
     Left = 56
-    Top = 312
+    Top = 456
     Width = 569
     Height = 177
     DataSource = ds1
@@ -232,17 +282,45 @@ object Form3: TForm3
   end
   object edt2: TEdit
     Left = 184
-    Top = 160
+    Top = 112
     Width = 377
     Height = 21
     TabOrder = 10
   end
   object edt3: TEdit
     Left = 184
-    Top = 192
+    Top = 152
     Width = 377
     Height = 21
     TabOrder = 11
+  end
+  object edt4: TEdit
+    Left = 184
+    Top = 192
+    Width = 377
+    Height = 21
+    TabOrder = 12
+  end
+  object edt5: TEdit
+    Left = 184
+    Top = 272
+    Width = 377
+    Height = 21
+    TabOrder = 13
+  end
+  object edt6: TEdit
+    Left = 184
+    Top = 312
+    Width = 377
+    Height = 21
+    TabOrder = 14
+  end
+  object edt7: TEdit
+    Left = 184
+    Top = 344
+    Width = 377
+    Height = 21
+    TabOrder = 15
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -261,15 +339,15 @@ object Form3: TForm3
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from customer')
+      'select * from user')
     Params = <>
     Left = 616
-    Top = 64
+    Top = 72
   end
   object ds1: TDataSource
     DataSet = zqry1
     Left = 616
-    Top = 112
+    Top = 120
   end
   object frxreport1: TfrxReport
     Version = '4.0.11'

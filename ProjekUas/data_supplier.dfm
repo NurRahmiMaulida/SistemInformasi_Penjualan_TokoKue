@@ -1,9 +1,9 @@
-object Form3: TForm3
-  Left = 166
-  Top = 208
-  Width = 1045
+object Form4: TForm4
+  Left = 386
+  Top = 205
+  Width = 1044
   Height = 540
-  Caption = 'CUSTOMER'
+  Caption = 'DATA SUPPLIER'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,9 +17,9 @@ object Form3: TForm3
   object lbl1: TLabel
     Left = 288
     Top = 40
-    Width = 190
+    Width = 164
     Height = 28
-    Caption = 'DATA CUSTOMER'
+    Caption = 'DATASUPPLIER'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -32,9 +32,9 @@ object Form3: TForm3
   object lbl4l: TLabel
     Left = 32
     Top = 101
-    Width = 118
+    Width = 109
     Height = 16
-    Caption = 'NAMA_CUSTOMER'
+    Caption = 'NAMA_SUPPLIER'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -45,9 +45,9 @@ object Form3: TForm3
   object lbl4l1: TLabel
     Left = 32
     Top = 133
-    Width = 97
+    Width = 135
     Height = 16
-    Caption = 'JENIS KELAMIN'
+    Caption = 'NAMA_PERUSAHAAN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -69,7 +69,7 @@ object Form3: TForm3
   end
   object lbl3: TLabel
     Left = 32
-    Top = 165
+    Top = 197
     Width = 51
     Height = 16
     Caption = 'ALAMAT'
@@ -82,7 +82,7 @@ object Form3: TForm3
   end
   object lbl4: TLabel
     Left = 32
-    Top = 197
+    Top = 165
     Width = 32
     Height = 16
     Caption = 'TELP'
@@ -168,23 +168,12 @@ object Form3: TForm3
     TabOrder = 4
     OnClick = btn6Click
   end
-  object cbb1: TComboBox
-    Left = 184
-    Top = 128
-    Width = 385
-    Height = 21
-    ItemHeight = 13
-    TabOrder = 5
-    Items.Strings = (
-      'LAKI-LAKI'
-      'PEREMPUAN')
-  end
   object edt1: TEdit
     Left = 184
     Top = 96
     Width = 377
     Height = 21
-    TabOrder = 6
+    TabOrder = 5
   end
   object btn1: TButton
     Left = 80
@@ -198,7 +187,7 @@ object Form3: TForm3
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
-    TabOrder = 7
+    TabOrder = 6
     OnClick = btn1Click
   end
   object btn7: TBitBtn
@@ -213,7 +202,7 @@ object Form3: TForm3
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
-    TabOrder = 8
+    TabOrder = 7
     OnClick = btn7Click
   end
   object dbgrd1: TDBGrid
@@ -222,7 +211,7 @@ object Form3: TForm3
     Width = 569
     Height = 177
     DataSource = ds1
-    TabOrder = 9
+    TabOrder = 8
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -232,12 +221,19 @@ object Form3: TForm3
   end
   object edt2: TEdit
     Left = 184
+    Top = 128
+    Width = 377
+    Height = 21
+    TabOrder = 9
+  end
+  object edt3: TEdit
+    Left = 184
     Top = 160
     Width = 377
     Height = 21
     TabOrder = 10
   end
-  object edt3: TEdit
+  object edt4: TEdit
     Left = 184
     Top = 192
     Width = 377
@@ -261,7 +257,7 @@ object Form3: TForm3
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
-      'select * from customer')
+      'select * from supplier')
     Params = <>
     Left = 616
     Top = 64
@@ -443,7 +439,7 @@ object Form3: TForm3
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSet = zqry1
-    Left = 664
-    Top = 88
+    Left = 672
+    Top = 112
   end
 end

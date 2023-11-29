@@ -75,6 +75,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA KATEGORI'
     TabOrder = 3
+    OnClick = btn4Click
   end
   object btn5: TButton
     Left = 664
@@ -83,6 +84,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA SUPPLIER'
     TabOrder = 4
+    OnClick = btn5Click
   end
   object btn6: TButton
     Left = 464
