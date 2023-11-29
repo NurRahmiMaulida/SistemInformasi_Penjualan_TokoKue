@@ -1,9 +1,9 @@
-object Form6: TForm6
-  Left = 192
-  Top = 152
-  Width = 785
+object Form9: TForm9
+  Left = 292
+  Top = 159
+  Width = 873
   Height = 540
-  Caption = 'DATA USER'
+  Caption = 'DATA DETAIL BELI'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,9 +17,9 @@ object Form6: TForm6
   object lbl1: TLabel
     Left = 288
     Top = 24
-    Width = 122
+    Width = 203
     Height = 28
-    Caption = 'DATA USER'
+    Caption = 'DATA DETAIL  BELI'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -29,25 +29,12 @@ object Form6: TForm6
     ParentColor = False
     ParentFont = False
   end
-  object lbl4l: TLabel
-    Left = 40
-    Top = 77
-    Width = 21
-    Height = 16
-    Caption = 'NIK'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
   object lbl4l1: TLabel
     Left = 40
-    Top = 117
-    Width = 103
+    Top = 77
+    Width = 44
     Height = 16
-    Caption = 'NAMA LENGKAP'
+    Caption = 'BELI ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -69,23 +56,10 @@ object Form6: TForm6
   end
   object lbl3: TLabel
     Left = 40
-    Top = 157
-    Width = 74
+    Top = 117
+    Width = 71
     Height = 16
-    Caption = 'USERNAME'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
-  object lbl4: TLabel
-    Left = 40
-    Top = 312
-    Width = 39
-    Height = 16
-    Caption = 'EMAIL'
+    Caption = 'BARANG ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -95,36 +69,10 @@ object Form6: TForm6
   end
   object lbl5: TLabel
     Left = 40
-    Top = 229
-    Width = 15
+    Top = 189
+    Width = 77
     Height = 16
-    Caption = 'JK'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
-  object lbl6: TLabel
-    Left = 40
-    Top = 269
-    Width = 32
-    Height = 16
-    Caption = 'TELP'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
-    ParentFont = False
-  end
-  object lbl7: TLabel
-    Left = 40
-    Top = 349
-    Width = 51
-    Height = 16
-    Caption = 'ALAMAT'
+    Caption = 'HARGA BELI'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -134,10 +82,10 @@ object Form6: TForm6
   end
   object lbl8: TLabel
     Left = 40
-    Top = 197
-    Width = 76
+    Top = 157
+    Width = 51
     Height = 16
-    Caption = 'PASSWORD'
+    Caption = 'JUMLAH'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -145,112 +93,25 @@ object Form6: TForm6
     Font.Style = []
     ParentFont = False
   end
-  object btn2: TButton
-    Left = 169
-    Top = 408
-    Width = 75
-    Height = 32
-    Caption = 'SIMPAN'
+  object lbl4: TLabel
+    Left = 40
+    Top = 221
+    Width = 71
+    Height = 16
+    Caption = 'TOTAL BELI'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
-    Font.Name = 'Stencil'
+    Font.Name = 'Roboto'
     Font.Style = []
     ParentFont = False
-    TabOrder = 0
-    OnClick = btn2Click
-  end
-  object btn3: TButton
-    Left = 257
-    Top = 408
-    Width = 75
-    Height = 32
-    Caption = 'EDIT'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Stencil'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 1
-    OnClick = btn3Click
-  end
-  object btn4: TButton
-    Left = 345
-    Top = 408
-    Width = 75
-    Height = 32
-    Caption = 'HAPUS'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Stencil'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 2
-    OnClick = btn4Click
-  end
-  object btn5: TButton
-    Left = 441
-    Top = 408
-    Width = 75
-    Height = 32
-    Caption = 'BATAL'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Stencil'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 3
-    OnClick = btn5Click
-  end
-  object btn6: TButton
-    Left = 529
-    Top = 408
-    Width = 80
-    Height = 32
-    Caption = 'LAPORAN'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Stencil'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 4
-  end
-  object cbb1: TComboBox
-    Left = 184
-    Top = 232
-    Width = 385
-    Height = 21
-    ItemHeight = 13
-    TabOrder = 5
-    Items.Strings = (
-      'LAKI-LAKI'
-      'PEREMPUAN')
   end
   object edt1: TEdit
     Left = 184
     Top = 72
     Width = 377
     Height = 21
-    TabOrder = 6
-  end
-  object btn1: TButton
-    Left = 80
-    Top = 408
-    Width = 75
-    Height = 33
-    Caption = 'BARU'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Stencil'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 7
-    OnClick = btn1Click
+    TabOrder = 0
   end
   object btn7: TBitBtn
     Left = 32
@@ -264,15 +125,127 @@ object Form6: TForm6
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
+    TabOrder = 1
+    OnClick = btn7Click
+  end
+  object edt2: TEdit
+    Left = 184
+    Top = 112
+    Width = 377
+    Height = 21
+    TabOrder = 2
+  end
+  object edt3: TEdit
+    Left = 184
+    Top = 152
+    Width = 377
+    Height = 21
+    TabOrder = 3
+  end
+  object edt4: TEdit
+    Left = 184
+    Top = 192
+    Width = 377
+    Height = 21
+    TabOrder = 4
+  end
+  object btn2: TButton
+    Left = 153
+    Top = 264
+    Width = 75
+    Height = 32
+    Caption = 'SIMPAN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btn2Click
+  end
+  object btn3: TButton
+    Left = 241
+    Top = 264
+    Width = 75
+    Height = 32
+    Caption = 'EDIT'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = btn3Click
+  end
+  object btn4: TButton
+    Left = 329
+    Top = 264
+    Width = 75
+    Height = 32
+    Caption = 'HAPUS'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    OnClick = btn4Click
+  end
+  object btn5: TButton
+    Left = 425
+    Top = 264
+    Width = 75
+    Height = 32
+    Caption = 'BATAL'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 8
+    OnClick = btn5Click
+  end
+  object btn6: TButton
+    Left = 513
+    Top = 264
+    Width = 80
+    Height = 32
+    Caption = 'LAPORAN'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+    OnClick = btn6Click
+  end
+  object btn1: TButton
+    Left = 64
+    Top = 264
+    Width = 75
+    Height = 33
+    Caption = 'BARU'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+    OnClick = btn1Click
   end
   object dbgrd1: TDBGrid
-    Left = 56
-    Top = 456
+    Left = 48
+    Top = 324
     Width = 569
     Height = 177
     DataSource = ds1
-    TabOrder = 9
+    TabOrder = 11
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
@@ -280,47 +253,12 @@ object Form6: TForm6
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
-  object edt2: TEdit
+  object edt5: TEdit
     Left = 184
-    Top = 112
-    Width = 377
-    Height = 21
-    TabOrder = 10
-  end
-  object edt3: TEdit
-    Left = 184
-    Top = 152
-    Width = 377
-    Height = 21
-    TabOrder = 11
-  end
-  object edt4: TEdit
-    Left = 184
-    Top = 192
+    Top = 224
     Width = 377
     Height = 21
     TabOrder = 12
-  end
-  object edt5: TEdit
-    Left = 184
-    Top = 272
-    Width = 377
-    Height = 21
-    TabOrder = 13
-  end
-  object edt6: TEdit
-    Left = 184
-    Top = 312
-    Width = 377
-    Height = 21
-    TabOrder = 14
-  end
-  object edt7: TEdit
-    Left = 184
-    Top = 344
-    Width = 377
-    Height = 21
-    TabOrder = 15
   end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
@@ -334,12 +272,13 @@ object Form6: TForm6
     Protocol = 'mysql'
     LibraryLocation = 'D:\DOKUMEN\SEMESTER 5\VISUAL 3\UAS VISUAL\ProjekUas\libmysql.dll'
     Left = 616
-    Top = 16
+    Top = 24
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
-      'select * from user')
+      'select * from detail_beli')
     Params = <>
     Left = 616
     Top = 72

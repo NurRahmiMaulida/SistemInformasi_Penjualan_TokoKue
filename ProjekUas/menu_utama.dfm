@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 406
-  Top = 223
+  Left = 255
+  Top = 201
   Width = 1044
   Height = 540
   Caption = 'MENU UTAMA'
@@ -50,6 +50,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA USER'
     TabOrder = 0
+    OnClick = btn1Click
   end
   object btn2: TButton
     Left = 464
@@ -58,6 +59,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA BARANG'
     TabOrder = 1
+    OnClick = btn2Click
   end
   object btn3: TButton
     Left = 256
@@ -93,6 +95,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA JUAL'
     TabOrder = 5
+    OnClick = btn6Click
   end
   object btn7: TButton
     Left = 256
@@ -101,6 +104,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA BELI'
     TabOrder = 6
+    OnClick = btn7Click
   end
   object btn8: TButton
     Left = 664
@@ -109,6 +113,7 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA DETAIL BELI'
     TabOrder = 7
+    OnClick = btn8Click
   end
   object btn9: TButton
     Left = 256
@@ -117,5 +122,6 @@ object Form2: TForm2
     Height = 33
     Caption = 'DATA DETAIL JUAL'
     TabOrder = 8
+    OnClick = btn9Click
   end
 end

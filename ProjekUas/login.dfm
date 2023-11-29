@@ -69,11 +69,11 @@ object Form1: TForm1
     TabOrder = 1
   end
   object btnb1: TButton
-    Left = 304
-    Top = 216
+    Left = 152
+    Top = 208
     Width = 113
     Height = 49
-    Caption = 'cancle'
+    Caption = 'DAFTAR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -84,8 +84,8 @@ object Form1: TForm1
     OnClick = btnb1Click
   end
   object btn1: TButton
-    Left = 152
-    Top = 216
+    Left = 304
+    Top = 208
     Width = 121
     Height = 49
     Caption = 'LOGIN'
