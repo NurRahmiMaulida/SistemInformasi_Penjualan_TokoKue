@@ -217,6 +217,7 @@ object Form10: TForm10
     Font.Style = []
     ParentFont = False
     TabOrder = 8
+    OnClick = btn1Click
   end
   object btn2: TBitBtn
     Left = 96

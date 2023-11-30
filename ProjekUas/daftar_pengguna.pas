@@ -36,6 +36,7 @@ type
     procedure editenable;
     procedure editdisable;
     procedure btn2Click(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -104,5 +105,73 @@ begin
    hide;
    Form1.show;
 end;
-  end.
+  procedure TForm10.btn1Click(Sender: TObject);
+begin
+begin
+ if edt3.Text ='' then
+ begin
+ ShowMessage('USERNAME TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt4.Text ='' then
+  begin
+  ShowMessage('PASSWORD TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt1.Text ='' then
+  begin
+  ShowMessage('NIK TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt2.Text ='' then
+  begin
+  ShowMessage('NAMA LENGAP TIDAK BOLEH KOSONG!');
+  end else
+
+  if cbb1.Text ='' then
+  begin
+  ShowMessage('Jenis Kelamin TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt5.Text ='' then
+  begin
+  ShowMessage('Telpon TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt6.Text ='' then
+  begin
+  ShowMessage('Email TIDAK BOLEH KOSONG!');
+  end else
+
+  if edt7.Text ='' then
+  begin
+  ShowMessage('Alamat TIDAK BOLEH KOSONG!');
+  end else
+
+
+  begin
+ zqry1.SQL.Clear;
+ zqry1.SQL.Add
+ ('insert into user values (null,"'+edt1.Text+'","'+edt2.Text+'","'+edt3.Text+'","'+edt4.Text+'","'+cbb1.Text+'","'+edt5.Text+'","'+edt6.Text+'","'+edt7.Text+'")');
+ zqry1.ExecSQL;
+
+ zqry1.SQL.Clear;
+ zqry1.SQL.Add('select * from user');
+ zqry1.Open;
+ if (edt1.Text= '')or (edt2.Text ='')or(edt3.Text= '')or (cbb1.Text ='') then
+  begin
+  ShowMessage('INPUTAN WAJIB DIISI!');
+  end else
+  if edt1.Text = zqry1.Fields[1].AsString then
+  begin
+  ShowMessage('DATA TIDAK ADA PERUBAHAN');
+  end
+end;
+hide;
+Form1.show;
+
+end;
+end;
+
+end.
 end.

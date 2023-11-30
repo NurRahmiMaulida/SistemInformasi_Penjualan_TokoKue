@@ -4,7 +4,7 @@ object Form7: TForm7
   Width = 842
   Height = 613
   Caption = 'DATA JUAL'
-  Color = clBtnFace
+  Color = clAqua
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,14 +17,14 @@ object Form7: TForm7
   object lbl1: TLabel
     Left = 288
     Top = 24
-    Width = 118
-    Height = 28
+    Width = 169
+    Height = 27
     Caption = 'DATA JUAL'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -21
-    Font.Name = 'Palatino Linotype'
+    Font.Name = 'Snap ITC'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
@@ -32,78 +32,78 @@ object Form7: TForm7
   object lbl4l: TLabel
     Left = 40
     Top = 229
-    Width = 57
-    Height = 16
+    Width = 73
+    Height = 22
     Caption = 'KEMBALI'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl4l1: TLabel
     Left = 40
     Top = 77
-    Width = 89
-    Height = 16
+    Width = 105
+    Height = 22
     Caption = 'CUSTOMER ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl2: TLabel
     Left = 32
     Top = 77
-    Width = 4
-    Height = 16
+    Width = 5
+    Height = 22
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl3: TLabel
     Left = 40
     Top = 117
-    Width = 95
-    Height = 16
+    Width = 113
+    Height = 22
     Caption = 'TANGGAL JUAL'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl5: TLabel
     Left = 40
     Top = 189
-    Width = 43
-    Height = 16
+    Width = 57
+    Height = 22
     Caption = 'BAYAR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl8: TLabel
     Left = 40
     Top = 157
-    Width = 39
-    Height = 16
+    Width = 57
+    Height = 22
     Caption = 'TOTAL'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object edt1: TEdit

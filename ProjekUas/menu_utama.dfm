@@ -14,113 +14,167 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
-    Left = 240
+    Left = 200
     Top = 56
-    Width = 618
-    Height = 36
+    Width = 653
+    Height = 38
     Caption = 'SISTEM INFORMASI PENJUALAN TOKO KUE'
     Color = clCream
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -29
-    Font.Name = 'Showcard Gothic'
-    Font.Style = [fsBold]
+    Font.Height = -32
+    Font.Name = 'Stencil'
+    Font.Style = [fsItalic]
     ParentColor = False
     ParentFont = False
   end
   object lbl2: TLabel
-    Left = 456
-    Top = 104
-    Width = 159
-    Height = 27
+    Left = 424
+    Top = 112
+    Width = 244
+    Height = 38
     Caption = 'RAHMI BAKERY'
     Color = clMoneyGreen
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -24
-    Font.Name = 'Britannic Bold'
-    Font.Style = []
+    Font.Height = -32
+    Font.Name = 'Stencil'
+    Font.Style = [fsItalic]
     ParentColor = False
     ParentFont = False
   end
   object btn1: TButton
     Left = 464
-    Top = 152
+    Top = 176
     Width = 163
     Height = 33
     Caption = 'DATA USER'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 0
     OnClick = btn1Click
   end
   object btn2: TButton
     Left = 464
-    Top = 272
+    Top = 296
     Width = 161
     Height = 33
     Caption = 'DATA BARANG'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 1
     OnClick = btn2Click
   end
   object btn3: TButton
     Left = 256
-    Top = 152
+    Top = 176
     Width = 161
     Height = 33
     Caption = 'DATA CUSTOMER'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 2
     OnClick = btn3Click
   end
   object btn4: TButton
     Left = 664
-    Top = 208
+    Top = 232
     Width = 169
     Height = 33
     Caption = 'DATA KATEGORI'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 3
     OnClick = btn4Click
   end
   object btn5: TButton
     Left = 664
-    Top = 152
+    Top = 176
     Width = 169
     Height = 33
     Caption = 'DATA SUPPLIER'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 4
     OnClick = btn5Click
   end
   object btn6: TButton
     Left = 464
-    Top = 208
+    Top = 232
     Width = 161
     Height = 33
     Caption = 'DATA JUAL'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 5
     OnClick = btn6Click
   end
   object btn7: TButton
     Left = 256
-    Top = 216
+    Top = 240
     Width = 161
     Height = 33
     Caption = 'DATA BELI'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 6
     OnClick = btn7Click
   end
   object btn8: TButton
     Left = 664
-    Top = 272
+    Top = 296
     Width = 171
     Height = 33
     Caption = 'DATA DETAIL BELI'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 7
     OnClick = btn8Click
   end
   object btn9: TButton
     Left = 256
-    Top = 272
+    Top = 296
     Width = 161
     Height = 33
     Caption = 'DATA DETAIL JUAL'
+    Font.Charset = OEM_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Terminal'
+    Font.Style = [fsBold]
+    ParentFont = False
     TabOrder = 8
     OnClick = btn9Click
   end

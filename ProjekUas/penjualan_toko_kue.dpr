@@ -13,7 +13,8 @@ uses
   data_detail_beli in 'data_detail_beli.pas' {Form9},
   daftar_pengguna in 'daftar_pengguna.pas' {Form10},
   data_detail_jual in 'data_detail_jual.pas' {Form11},
-  data_barang in 'data_barang.pas' {Form12};
+  data_barang in 'data_barang.pas' {Form12},
+  beranda in 'beranda.pas' {Form13};
 
 {$R *.res}
 
@@ -31,5 +32,6 @@ begin
   Application.CreateForm(TForm10, Form10);
   Application.CreateForm(TForm11, Form11);
   Application.CreateForm(TForm12, Form12);
+  Application.CreateForm(TForm13, Form13);
   Application.Run;
 end.
