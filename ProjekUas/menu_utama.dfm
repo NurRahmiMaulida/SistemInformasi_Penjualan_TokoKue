@@ -1,8 +1,8 @@
 object Form2: TForm2
   Left = 255
-  Top = 201
+  Top = 200
   Width = 1044
-  Height = 540
+  Height = 541
   Caption = 'MENU UTAMA'
   Color = clOlive
   Font.Charset = DEFAULT_CHARSET
@@ -16,7 +16,7 @@ object Form2: TForm2
   object lbl1: TLabel
     Left = 200
     Top = 56
-    Width = 653
+    Width = 637
     Height = 38
     Caption = 'SISTEM INFORMASI PENJUALAN TOKO KUE'
     Color = clCream
@@ -31,7 +31,7 @@ object Form2: TForm2
   object lbl2: TLabel
     Left = 424
     Top = 112
-    Width = 244
+    Width = 236
     Height = 38
     Caption = 'RAHMI BAKERY'
     Color = clMoneyGreen
@@ -44,11 +44,11 @@ object Form2: TForm2
     ParentFont = False
   end
   object btn1: TButton
-    Left = 464
+    Left = 440
     Top = 176
-    Width = 163
+    Width = 203
     Height = 33
-    Caption = 'DATA USER'
+    Caption = '<< DATA USER >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -59,11 +59,11 @@ object Form2: TForm2
     OnClick = btn1Click
   end
   object btn2: TButton
-    Left = 464
+    Left = 440
     Top = 296
-    Width = 161
+    Width = 201
     Height = 33
-    Caption = 'DATA BARANG'
+    Caption = '<< DATA BARANG >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -74,11 +74,11 @@ object Form2: TForm2
     OnClick = btn2Click
   end
   object btn3: TButton
-    Left = 256
+    Left = 192
     Top = 176
-    Width = 161
+    Width = 225
     Height = 33
-    Caption = 'DATA CUSTOMER'
+    Caption = '<< DATA CUSTOMER >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -91,9 +91,9 @@ object Form2: TForm2
   object btn4: TButton
     Left = 664
     Top = 232
-    Width = 169
+    Width = 209
     Height = 33
-    Caption = 'DATA KATEGORI'
+    Caption = '<< DATA KATEGORI >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -106,9 +106,9 @@ object Form2: TForm2
   object btn5: TButton
     Left = 664
     Top = 176
-    Width = 169
+    Width = 209
     Height = 33
-    Caption = 'DATA SUPPLIER'
+    Caption = '<< DATA SUPPLIER >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -119,11 +119,11 @@ object Form2: TForm2
     OnClick = btn5Click
   end
   object btn6: TButton
-    Left = 464
+    Left = 440
     Top = 232
-    Width = 161
+    Width = 201
     Height = 33
-    Caption = 'DATA JUAL'
+    Caption = '<< DATA JUAL >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -134,11 +134,11 @@ object Form2: TForm2
     OnClick = btn6Click
   end
   object btn7: TButton
-    Left = 256
+    Left = 192
     Top = 240
-    Width = 161
+    Width = 225
     Height = 33
-    Caption = 'DATA BELI'
+    Caption = '<< DATA BELI >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -151,9 +151,9 @@ object Form2: TForm2
   object btn8: TButton
     Left = 664
     Top = 296
-    Width = 171
+    Width = 217
     Height = 33
-    Caption = 'DATA DETAIL BELI'
+    Caption = '<< DATA DETAIL BELI >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -164,11 +164,11 @@ object Form2: TForm2
     OnClick = btn8Click
   end
   object btn9: TButton
-    Left = 256
+    Left = 192
     Top = 296
-    Width = 161
+    Width = 225
     Height = 33
-    Caption = 'DATA DETAIL JUAL'
+    Caption = '<< DATA DETAIL JUAL >>'
     Font.Charset = OEM_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

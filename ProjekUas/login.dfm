@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 272
-  Top = 211
-  Width = 536
-  Height = 540
+  Left = 375
+  Top = 182
+  Width = 518
+  Height = 390
   Caption = 'LOGIN'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -40,16 +40,16 @@ object Form1: TForm1
     ParentFont = False
   end
   object lbl1: TLabel
-    Left = 208
+    Left = 200
     Top = 48
-    Width = 122
-    Height = 23
+    Width = 157
+    Height = 25
     Caption = 'LOGIN USER'
     Color = clWhite
-    Font.Charset = DEFAULT_CHARSET
+    Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
-    Font.Name = 'Tahoma'
+    Font.Name = 'Snap ITC'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
@@ -76,7 +76,7 @@ object Form1: TForm1
     Caption = 'DAFTAR'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -21
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False
@@ -91,7 +91,7 @@ object Form1: TForm1
     Caption = 'LOGIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -21
     Font.Name = 'Stencil'
     Font.Style = []
     ParentFont = False

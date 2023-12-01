@@ -25,7 +25,6 @@ type
     con1: TZConnection;
     zqry1: TZQuery;
     ds1: TDataSource;
-    frxreport1: TfrxReport;
     frxdbdtst1: TfrxDBDataset;
     btn2: TButton;
     btn3: TButton;
@@ -35,6 +34,7 @@ type
     btn1: TButton;
     dbgrd1: TDBGrid;
     edt5: TEdit;
+    frxreport1: TfrxReport;
     procedure posisiawal;
     procedure editbersih;
     procedure editenable;

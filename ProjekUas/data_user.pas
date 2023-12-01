@@ -31,7 +31,6 @@ type
     con1: TZConnection;
     zqry1: TZQuery;
     ds1: TDataSource;
-    frxreport1: TfrxReport;
     frxdbdtst1: TfrxDBDataset;
     lbl5: TLabel;
     lbl6: TLabel;
@@ -41,6 +40,7 @@ type
     edt5: TEdit;
     edt6: TEdit;
     edt7: TEdit;
+    frxreport1: TfrxReport;
     procedure posisiawal;
     procedure editbersih;
     procedure editenable;
@@ -52,6 +52,8 @@ type
     procedure btn4Click(Sender: TObject);
     procedure dbgrd1CellClick(Column: TColumn);
     procedure FormShow(Sender: TObject);
+    procedure btn6Click(Sender: TObject);
+    procedure btn7Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -227,6 +229,17 @@ end;
 procedure TForm6.FormShow(Sender: TObject);
 begin
 posisiawal;
+end;
+
+procedure TForm6.btn6Click(Sender: TObject);
+begin
+frxreport1.ShowReport();
+end;
+
+procedure TForm6.btn7Click(Sender: TObject);
+begin
+Hide;
+  Form2.Show;
 end;
 
 end.

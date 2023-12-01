@@ -1,10 +1,10 @@
 object Form6: TForm6
-  Left = 192
-  Top = 152
-  Width = 785
-  Height = 540
+  Left = 229
+  Top = 230
+  Width = 1092
+  Height = 467
   Caption = 'DATA USER'
-  Color = clBtnFace
+  Color = clActiveCaption
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -17,14 +17,14 @@ object Form6: TForm6
   object lbl1: TLabel
     Left = 288
     Top = 24
-    Width = 122
-    Height = 28
+    Width = 155
+    Height = 27
     Caption = 'DATA USER'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -21
-    Font.Name = 'Palatino Linotype'
+    Font.Name = 'Snap ITC'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
@@ -32,122 +32,122 @@ object Form6: TForm6
   object lbl4l: TLabel
     Left = 40
     Top = 77
-    Width = 21
-    Height = 16
+    Width = 25
+    Height = 22
     Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl4l1: TLabel
     Left = 40
     Top = 117
-    Width = 103
-    Height = 16
+    Width = 107
+    Height = 22
     Caption = 'NAMA LENGKAP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl2: TLabel
     Left = 32
     Top = 77
-    Width = 4
-    Height = 16
+    Width = 5
+    Height = 22
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl3: TLabel
     Left = 40
     Top = 157
-    Width = 74
-    Height = 16
+    Width = 70
+    Height = 22
     Caption = 'USERNAME'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl4: TLabel
     Left = 40
     Top = 312
-    Width = 39
-    Height = 16
+    Width = 42
+    Height = 22
     Caption = 'EMAIL'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl5: TLabel
     Left = 40
     Top = 229
-    Width = 15
-    Height = 16
+    Width = 16
+    Height = 22
     Caption = 'JK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl6: TLabel
     Left = 40
     Top = 269
-    Width = 32
-    Height = 16
+    Width = 35
+    Height = 22
     Caption = 'TELP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl7: TLabel
     Left = 40
     Top = 349
-    Width = 51
-    Height = 16
+    Width = 55
+    Height = 22
     Caption = 'ALAMAT'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl8: TLabel
     Left = 40
     Top = 197
     Width = 76
-    Height = 16
+    Height = 22
     Caption = 'PASSWORD'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object btn2: TButton
-    Left = 169
-    Top = 408
+    Left = 601
+    Top = 136
     Width = 75
     Height = 32
     Caption = 'SIMPAN'
@@ -161,8 +161,8 @@ object Form6: TForm6
     OnClick = btn2Click
   end
   object btn3: TButton
-    Left = 257
-    Top = 408
+    Left = 697
+    Top = 80
     Width = 75
     Height = 32
     Caption = 'EDIT'
@@ -176,8 +176,8 @@ object Form6: TForm6
     OnClick = btn3Click
   end
   object btn4: TButton
-    Left = 345
-    Top = 408
+    Left = 697
+    Top = 136
     Width = 75
     Height = 32
     Caption = 'HAPUS'
@@ -191,8 +191,8 @@ object Form6: TForm6
     OnClick = btn4Click
   end
   object btn5: TButton
-    Left = 441
-    Top = 408
+    Left = 793
+    Top = 80
     Width = 75
     Height = 32
     Caption = 'BATAL'
@@ -206,8 +206,8 @@ object Form6: TForm6
     OnClick = btn5Click
   end
   object btn6: TButton
-    Left = 529
-    Top = 408
+    Left = 793
+    Top = 136
     Width = 80
     Height = 32
     Caption = 'LAPORAN'
@@ -218,6 +218,7 @@ object Form6: TForm6
     Font.Style = []
     ParentFont = False
     TabOrder = 4
+    OnClick = btn6Click
   end
   object cbb1: TComboBox
     Left = 184
@@ -238,8 +239,8 @@ object Form6: TForm6
     TabOrder = 6
   end
   object btn1: TButton
-    Left = 80
-    Top = 408
+    Left = 600
+    Top = 80
     Width = 75
     Height = 33
     Caption = 'BARU'
@@ -265,11 +266,12 @@ object Form6: TForm6
     Font.Style = []
     ParentFont = False
     TabOrder = 8
+    OnClick = btn7Click
   end
   object dbgrd1: TDBGrid
-    Left = 56
-    Top = 456
-    Width = 569
+    Left = 600
+    Top = 192
+    Width = 425
     Height = 177
     DataSource = ds1
     TabOrder = 9
@@ -333,26 +335,31 @@ object Form6: TForm6
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'D:\DOKUMEN\SEMESTER 5\VISUAL 3\UAS VISUAL\ProjekUas\libmysql.dll'
-    Left = 616
-    Top = 16
+    Left = 912
+    Top = 40
   end
   object zqry1: TZQuery
     Connection = con1
     SQL.Strings = (
       'select * from user')
     Params = <>
-    Left = 616
-    Top = 72
+    Left = 912
+    Top = 88
   end
   object ds1: TDataSource
     DataSet = zqry1
-    Left = 616
-    Top = 120
+    Left = 912
+    Top = 136
+  end
+  object frxdbdtst1: TfrxDBDataset
+    UserName = 'frxdbdtst1'
+    CloseDataSource = False
+    DataSet = zqry1
+    Left = 952
+    Top = 88
   end
   object frxreport1: TfrxReport
     Version = '4.0.11'
-    DataSet = frxdbdtst1
-    DataSetName = 'frxdbdtst1'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -360,14 +367,14 @@ object Form6: TForm6
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45100.692737199100000000
-    ReportOptions.LastChange = 45105.709129131900000000
+    ReportOptions.LastChange = 45261.397930150470000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
       ''
       'end.')
-    Left = 664
-    Top = 32
+    Left = 952
+    Top = 40
     Datasets = <
       item
         DataSet = frxdbdtst1
@@ -389,18 +396,19 @@ object Form6: TForm6
         Top = 18.897650000000000000
         Width = 793.701300000000000000
         object Memo1: TfrxMemoView
-          Left = 325.039580000000000000
+          Left = 279.685220000000000000
           Top = 30.236240000000000000
-          Width = 158.740260000000000000
+          Width = 241.889920000000000000
           Height = 18.897650000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
-          Font.Height = -13
+          Font.Height = -16
           Font.Name = 'Arial'
-          Font.Style = []
+          Font.Style = [fsBold]
+          HAlign = haCenter
           Memo.UTF8 = (
-            'LAPORAN DATA KELAS')
+            'LAPORAN DATA USER ')
           ParentFont = False
         end
       end
@@ -409,8 +417,7 @@ object Form6: TForm6
         Top = 128.504020000000000000
         Width = 793.701300000000000000
         object Memo2: TfrxMemoView
-          Left = 113.385900000000000000
-          Width = 37.795300000000000000
+          Width = 49.133890000000000000
           Height = 18.897650000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -419,13 +426,14 @@ object Form6: TForm6
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
             'ID')
           ParentFont = False
         end
         object Memo3: TfrxMemoView
-          Left = 151.181200000000000000
-          Width = 298.582870000000000000
+          Left = 113.385900000000000000
+          Width = 124.724490000000000000
           Height = 18.897650000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -434,13 +442,14 @@ object Form6: TForm6
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
-            'NAMA KELAS')
+            'NAMA LENGKAP')
           ParentFont = False
         end
         object Memo4: TfrxMemoView
-          Left = 449.764070000000000000
-          Width = 226.771800000000000000
+          Left = 238.110390000000000000
+          Width = 98.267780000000000000
           Height = 18.897650000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -449,8 +458,105 @@ object Form6: TForm6
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
           Memo.UTF8 = (
-            'JURUSAN')
+            'USERNAME')
+          ParentFont = False
+        end
+        object Memo8: TfrxMemoView
+          Left = 49.133890000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'NIK')
+          ParentFont = False
+        end
+        object Memo9: TfrxMemoView
+          Left = 336.378170000000000000
+          Width = 105.826840000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'PASSWORD')
+          ParentFont = False
+        end
+        object Memo10: TfrxMemoView
+          Left = 442.205010000000000000
+          Width = 124.724490000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'JENIS KELAMIN')
+          ParentFont = False
+        end
+        object Memo11: TfrxMemoView
+          Left = 566.929500000000000000
+          Width = 98.267780000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'TELEPHONE')
+          ParentFont = False
+        end
+        object Memo12: TfrxMemoView
+          Left = 665.197280000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'EMAIL')
+          ParentFont = False
+        end
+        object Memo13: TfrxMemoView
+          Left = 729.449290000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            'ALAMAT')
           ParentFont = False
         end
       end
@@ -462,9 +568,9 @@ object Form6: TForm6
         DataSetName = 'frxdbdtst1'
         RowCount = 0
         object Memo5: TfrxMemoView
-          Left = 113.385900000000000000
-          Width = 37.795300000000000000
+          Width = 49.133890000000000000
           Height = 18.897650000000000000
+          DataField = 'id'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -475,14 +581,14 @@ object Form6: TForm6
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Memo.UTF8 = (
-            '[line]')
+            '[frxdbdtst1."id"]')
           ParentFont = False
         end
         object Memo6: TfrxMemoView
-          Left = 151.181200000000000000
-          Width = 298.582870000000000000
+          Left = 238.110390000000000000
+          Width = 98.267780000000000000
           Height = 18.897650000000000000
-          DataField = 'nama'
+          DataField = 'username'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -493,14 +599,14 @@ object Form6: TForm6
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Memo.UTF8 = (
-            '[frxdbdtst1."nama"]')
+            '[frxdbdtst1."username"]')
           ParentFont = False
         end
         object Memo7: TfrxMemoView
-          Left = 449.764070000000000000
-          Width = 226.771800000000000000
+          Left = 336.378170000000000000
+          Width = 105.826840000000000000
           Height = 18.897650000000000000
-          DataField = 'jurusan'
+          DataField = 'password'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -511,17 +617,118 @@ object Form6: TForm6
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Memo.UTF8 = (
-            '[frxdbdtst1."jurusan"]')
+            '[frxdbdtst1."password"]')
+          ParentFont = False
+        end
+        object Memo14: TfrxMemoView
+          Left = 49.133890000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DataField = 'nik'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."nik"]')
+          ParentFont = False
+        end
+        object Memo15: TfrxMemoView
+          Left = 113.385900000000000000
+          Width = 124.724490000000000000
+          Height = 18.897650000000000000
+          DataField = 'nama_Lengkap'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."nama_Lengkap"]')
+          ParentFont = False
+        end
+        object Memo16: TfrxMemoView
+          Left = 442.205010000000000000
+          Width = 124.724490000000000000
+          Height = 18.897650000000000000
+          DataField = 'jk'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."jk"]')
+          ParentFont = False
+        end
+        object Memo17: TfrxMemoView
+          Left = 566.929500000000000000
+          Width = 98.267780000000000000
+          Height = 18.897650000000000000
+          DataField = 'telp'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."telp"]')
+          ParentFont = False
+        end
+        object Memo18: TfrxMemoView
+          Left = 665.197280000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DataField = 'email'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."email"]')
+          ParentFont = False
+        end
+        object Memo19: TfrxMemoView
+          Left = 729.449290000000000000
+          Width = 64.252010000000000000
+          Height = 18.897650000000000000
+          DataField = 'alamat'
+          DataSet = frxdbdtst1
+          DataSetName = 'frxdbdtst1'
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = []
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          Memo.UTF8 = (
+            '[frxdbdtst1."alamat"]')
           ParentFont = False
         end
       end
     end
-  end
-  object frxdbdtst1: TfrxDBDataset
-    UserName = 'frxdbdtst1'
-    CloseDataSource = False
-    DataSet = zqry1
-    Left = 664
-    Top = 88
   end
 end

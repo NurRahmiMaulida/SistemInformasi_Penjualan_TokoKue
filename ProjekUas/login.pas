@@ -32,7 +32,7 @@ var
 
 implementation
 
-uses menu_utama, daftar_pengguna;
+uses menu_utama, daftar_pengguna, beranda;
 
 {$R *.dfm}
 
@@ -58,7 +58,7 @@ Application.MessageBox('Pastikan password yang anda masukkan benar','error',MB_O
 else
 begin
 hide;
-Form2.Show;
+Form13.Show;
 end;
 end;
 

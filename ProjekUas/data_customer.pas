@@ -27,12 +27,12 @@ type
     con1: TZConnection;
     zqry1: TZQuery;
     ds1: TDataSource;
-    frxreport1: TfrxReport;
     frxdbdtst1: TfrxDBDataset;
     lbl3: TLabel;
     lbl4: TLabel;
     edt2: TEdit;
     edt3: TEdit;
+    frxreport1: TfrxReport;
     procedure posisiawal;
     procedure editbersih;
     procedure editenable;

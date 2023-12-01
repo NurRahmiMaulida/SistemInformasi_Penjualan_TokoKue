@@ -1,10 +1,10 @@
 object Form10: TForm10
-  Left = 109
-  Top = 151
-  Width = 1044
+  Left = 231
+  Top = 143
+  Width = 1104
   Height = 540
   Caption = 'DAFTAR DATA PENGGUNA'
-  Color = clBtnFace
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -14,16 +14,16 @@ object Form10: TForm10
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
-    Left = 240
+    Left = 208
     Top = 24
-    Width = 261
-    Height = 28
+    Width = 321
+    Height = 27
     Caption = 'DATA PENGGUNA BARU'
     Color = clWhite
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -21
-    Font.Name = 'Palatino Linotype'
+    Font.Name = 'Snap ITC'
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False
@@ -31,117 +31,117 @@ object Form10: TForm10
   object lbl4l: TLabel
     Left = 40
     Top = 77
-    Width = 21
-    Height = 16
+    Width = 25
+    Height = 22
     Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl4l1: TLabel
     Left = 40
     Top = 117
-    Width = 103
-    Height = 16
+    Width = 107
+    Height = 22
     Caption = 'NAMA LENGKAP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl2: TLabel
     Left = 32
     Top = 77
-    Width = 4
-    Height = 16
+    Width = 5
+    Height = 22
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl3: TLabel
     Left = 40
     Top = 157
-    Width = 74
-    Height = 16
+    Width = 70
+    Height = 22
     Caption = 'USERNAME'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl4: TLabel
     Left = 40
     Top = 312
-    Width = 39
-    Height = 16
+    Width = 42
+    Height = 22
     Caption = 'EMAIL'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl5: TLabel
     Left = 40
     Top = 229
-    Width = 15
-    Height = 16
+    Width = 16
+    Height = 22
     Caption = 'JK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl6: TLabel
     Left = 40
     Top = 269
-    Width = 32
-    Height = 16
+    Width = 35
+    Height = 22
     Caption = 'TELP'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl7: TLabel
     Left = 40
     Top = 349
-    Width = 51
-    Height = 16
+    Width = 55
+    Height = 22
     Caption = 'ALAMAT'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object lbl8: TLabel
     Left = 40
     Top = 197
     Width = 76
-    Height = 16
+    Height = 22
     Caption = 'PASSWORD'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Roboto'
-    Font.Style = []
+    Font.Height = -19
+    Font.Name = 'Bernard MT Condensed'
+    Font.Style = [fsItalic]
     ParentFont = False
   end
   object cbb1: TComboBox
@@ -212,24 +212,24 @@ object Form10: TForm10
     Caption = 'DAFTAR PENGGUNA BARU'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -15
     Font.Name = 'Stencil'
-    Font.Style = []
+    Font.Style = [fsItalic]
     ParentFont = False
     TabOrder = 8
     OnClick = btn1Click
   end
   object btn2: TBitBtn
-    Left = 96
+    Left = 88
     Top = 392
-    Width = 217
+    Width = 233
     Height = 49
     Caption = 'KEMBALI KEHALAMAN LOGIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -13
+    Font.Height = -15
     Font.Name = 'Stencil'
-    Font.Style = []
+    Font.Style = [fsItalic]
     ParentFont = False
     TabOrder = 9
   end
